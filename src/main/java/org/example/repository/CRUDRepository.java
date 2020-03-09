@@ -1,5 +1,5 @@
-package repository;
-import validation.*;
+package org.example.repository;
+import org.example.validation.*;
 
 public interface CRUDRepository<ID, E> {
     /**

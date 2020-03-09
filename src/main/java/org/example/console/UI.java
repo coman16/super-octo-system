@@ -1,9 +1,10 @@
-package console;
-
-import domain.*;
-import service.Service;
+package org.example.console;
 
 import java.util.Scanner;
+import org.example.domain.Nota;
+import org.example.domain.Student;
+import org.example.domain.Tema;
+import org.example.service.Service;
 
 public class UI {
     private Service service;

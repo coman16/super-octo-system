@@ -1,7 +1,7 @@
-package repository;
+package org.example.repository;
 
-import domain.Tema;
-import validation.Validator;
+import org.example.domain.Tema;
+import org.example.validation.Validator;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 

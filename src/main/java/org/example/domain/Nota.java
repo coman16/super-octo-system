@@ -1,4 +1,4 @@
-package domain;
+package org.example.domain;
 
 public class Nota implements HasID<Pair<String, String>> {
     Pair<String, String> idNota;

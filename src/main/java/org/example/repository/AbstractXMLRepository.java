@@ -1,8 +1,8 @@
-package repository;
+package org.example.repository;
 
-import domain.HasID;
-import validation.ValidationException;
-import validation.Validator;
+import org.example.domain.HasID;
+import org.example.validation.ValidationException;
+import org.example.validation.Validator;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;

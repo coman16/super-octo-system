@@ -1,5 +1,5 @@
-package validation;
-import domain.Student;
+package org.example.validation;
+import org.example.domain.Student;
 
 public class StudentValidator implements Validator<Student> {
     public void validate(Student student) throws ValidationException {

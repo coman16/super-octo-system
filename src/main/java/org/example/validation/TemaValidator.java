@@ -1,5 +1,5 @@
-package validation;
-import domain.Tema;
+package org.example.validation;
+import org.example.domain.Tema;
 
 public class TemaValidator implements Validator<Tema> {
     public void validate(Tema tema) throws ValidationException {

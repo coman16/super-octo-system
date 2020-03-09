@@ -1,4 +1,4 @@
-package domain;
+package org.example.domain;
 
 public interface HasID<ID> {
     ID getID();

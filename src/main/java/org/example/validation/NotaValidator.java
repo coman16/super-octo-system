@@ -1,5 +1,5 @@
-package validation;
-import domain.Nota;
+package org.example.validation;
+import org.example.domain.Nota;
 
 public class NotaValidator implements Validator<Nota> {
     public void validate(Nota nota) throws ValidationException {

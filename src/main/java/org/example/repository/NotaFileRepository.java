@@ -1,6 +1,6 @@
-package repository;
-import domain.*;
-import validation.*;
+package org.example.repository;
+import org.example.domain.*;
+import org.example.validation.*;
 
 import java.io.*;
 import java.util.stream.Collectors;

@@ -1,7 +1,7 @@
-package repository;
+package org.example.repository;
 
-import domain.Student;
-import validation.*;
+import org.example.domain.Student;
+import org.example.validation.*;
 
 public class StudentRepository extends AbstractCRUDRepository<String, Student> {
     public StudentRepository(Validator<Student> validator) {

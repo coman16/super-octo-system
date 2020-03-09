@@ -1,8 +1,8 @@
-package repository;
+package org.example.repository;
 
-import domain.HasID;
-import validation.ValidationException;
-import validation.Validator;
+import org.example.domain.HasID;
+import org.example.validation.ValidationException;
+import org.example.validation.Validator;
 
 public abstract class AbstractFileRepository<ID, E extends HasID<ID>> extends AbstractCRUDRepository<ID,E>{
     protected String filename;

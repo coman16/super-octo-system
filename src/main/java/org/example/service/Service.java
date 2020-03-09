@@ -1,7 +1,7 @@
-package service;
+package org.example.service;
 
-import domain.*;
-import repository.*;
+import org.example.domain.*;
+import org.example.repository.*;
 
 import java.time.LocalDate;
 import java.time.temporal.WeekFields;

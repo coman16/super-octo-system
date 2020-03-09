@@ -1,10 +1,10 @@
+package org.example;
 
-
-import console.*;
-import domain.*;
-import repository.*;
-import service.*;
-import validation.*;
+import org.example.console.*;
+import org.example.domain.*;
+import org.example.repository.*;
+import org.example.service.*;
+import org.example.validation.*;
 
 public class Main {
     public static void main(String[] args) {

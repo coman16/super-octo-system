@@ -1,13 +1,13 @@
-package repository;
+package org.example.repository;
 
-import domain.Nota;
-import domain.Pair;
-import domain.Student;
-import domain.Tema;
-import validation.StudentValidator;
-import validation.TemaValidator;
-import validation.ValidationException;
-import validation.Validator;
+import org.example.domain.Nota;
+import org.example.domain.Pair;
+import org.example.domain.Student;
+import org.example.domain.Tema;
+import org.example.validation.StudentValidator;
+import org.example.validation.TemaValidator;
+import org.example.validation.ValidationException;
+import org.example.validation.Validator;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;

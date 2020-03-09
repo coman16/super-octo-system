@@ -1,6 +1,6 @@
-package repository;
-import domain.Student;
-import validation.Validator;
+package org.example.repository;
+import org.example.domain.Student;
+import org.example.validation.Validator;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 

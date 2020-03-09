@@ -1,7 +1,7 @@
-package repository;
+package org.example.repository;
 
-import domain.*;
-import validation.*;
+import org.example.domain.*;
+import org.example.validation.*;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

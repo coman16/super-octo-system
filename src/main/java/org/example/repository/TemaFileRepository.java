@@ -1,7 +1,7 @@
-package repository;
+package org.example.repository;
 
-import domain.Tema;
-import validation.*;
+import org.example.domain.Tema;
+import org.example.validation.*;
 
 import java.io.*;
 import java.util.stream.Collectors;
